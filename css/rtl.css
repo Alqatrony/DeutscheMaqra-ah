@@ -1,0 +1,206 @@
+/* RTL Support for Arabic Version */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Navigation */
+.navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.navbar .navbar-nav {
+    padding-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 1.5rem;
+}
+
+.navbar-toggler {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.navbar .dropdown-toggle::after {
+    right: 2px;
+}
+
+.dropdown-toggle::after {
+    margin-right: 0.255em;
+    margin-left: 0;
+}
+
+/* Search and Forms */
+.custom-form {
+    direction: rtl;
+}
+
+.custom-form .form-control {
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+.input-group .btn {
+    border-radius: var(--border-radius-large) 0 0 var(--border-radius-large);
+}
+
+.input-group .form-control {
+    border-radius: 0 var(--border-radius-large) var(--border-radius-large) 0;
+}
+
+.form-select {
+    background-position: left .75rem center;
+}
+
+/* Sections and Content */
+.section-overlay {
+    right: 0;
+    left: auto;
+}
+
+.Statistiken p {
+    text-align: center;
+}
+
+/* Tabs */
+.nav-tabs .nav-link:first-child {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+/* Custom Blocks */
+.custom-block-image {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.custom-block-topics-listing-info {
+    text-align: right;
+}
+
+.custom-block-info {
+    text-align: right;
+}
+
+/* Lists and Icons */
+.social-icon {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.custom-list {
+    padding-right: 0;
+}
+
+.reviews-group {
+    direction: ltr; /* Keep slider direction left to right */
+}
+
+/* Bootstrap Utilities Override */
+.me-lg-5 {
+    margin-left: 3rem !important;
+    margin-right: 0 !important;
+}
+
+.me-4 {
+    margin-left: 1.5rem !important;
+    margin-right: 0 !important;
+}
+
+.ms-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 0 !important;
+}
+
+.ms-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+.pe-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+}
+
+.ps-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 0 !important;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder {
+    right: 0 !important; /* Flip from left to right */
+    left: auto !important;
+}
+
+.timeline-container .vertical-scrollable-timeline li {
+    padding: 20px 145px 65px 0 !important; /* Flip left padding to right */
+}
+
+.modal-header .btn-close {
+    margin: -1rem auto -1rem 0 !important;
+}
+
+.modal-body .btn-primary {
+    float: left !important;
+}
+
+.list-progress {
+    transform: translateY(38px) translateX(-88px);
+}
+
+.float-end {
+    float: left !important;
+}
+
+.float-start {
+    float: right !important;
+}
+
+/* Text Alignment for RTL */
+.text-end {
+    text-align: left !important;
+}
+
+.text-start {
+    text-align: right !important;
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Border Radius Adjustments */
+.custom-block,
+.custom-block-image {
+    border-radius: var(--border-radius-medium);
+}
+
+/* Footer Adjustments */
+.site-footer {
+    text-align: right;
+}
+
+.site-footer .footer-menu {
+    padding-right: 0;
+}
+
+.site-footer::after {
+    border-width: 0 200px 200px 0;
+    left: 0;
+    right: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        padding-right: 0;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+    }
+}
